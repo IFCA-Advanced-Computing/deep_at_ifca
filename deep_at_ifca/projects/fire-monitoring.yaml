@@ -1,0 +1,13 @@
+---
+title: Fire monitoring from satellite images
+start: 2019
+end: 2020
+contact: garciad@ifca.es
+areas:
+  - satellites
+  - biodiversity
+links:
+  - [Student report,
+     https://repositorio.unican.es/xmlui/handle/10902/20626]
+description: >-
+  We use use a deep learning classifier to accurately detect and monitor forest fires from Sentinel-2 images.

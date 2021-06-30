@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row justify-content-center content">
+  <div class="col-lg-6">
+
+    <h1 class="text-center">Deep @ IFCA</h1>
+
+    <p class="pt-5 pb-3">
+      This page gathers all Deep Learning applications developed at
+      <a href="https://ifca.unican.es/">IFCA</a> by the
+      <a href="https://ifca.unican.es/en-us/research/advanced-computing-and-e-science">
+      Advanced Computing and e-Science Group</a>.
+    </p>
+
+    <p>
+      <a class="btn btn-info" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <i class="far fa-caret-square-down"></i> Filter
+      </a>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body card-form">
+
+        <form action="{{ url_for('home') }}" method="post" enctype="application/x-www-form-urlencoded">
+
+          <b>Areas</b>
+          <div class="form-group">
+            {% for area in filters['areas'] %}
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="area-{{ area }}">
+                {{ area }}
+            </div>
+            {% endfor %}
+          </div>
+
+          <b>Tags</b>
+          <div class="form-group">
+            {% for tag in filters['tags'] %}
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="tag-{{ tag }}">
+              {{ tag }}
+            </div>
+            {% endfor %}
+          </div>
+
+          <b>Other</b>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="ongoing">
+              ongoing projects
+            </div>
+          </div>
+
+        <button type="submit" class="btn btn-info mt-3">Submit</button>
+        </form>
+
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<div class="card-deck justify-content-center pt-5">
+{% for pname, p in projects.items() %}
+  <div class="col">
+    <div class="card card-project mb-5 hover-shadow" style="width: 18rem;">
+      <div class="card-header">
+        <span style="font-size:0.9em;">
+          {{ p['start'] }} -
+          {% if p['end'] == 'ongoing' %}
+            <span class="badge badge-secondary"> Ongoing </span>
+          {% else %}
+            {{ p['end'] }}
+          {% endif %}
+        </span>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">{{ p['title'] }}</h5>
+        <p class="card-text">{{ p['description'][:80] }} [...]</p>
+        <a href="{{ url_for('project', name=pname) }}" class="stretched-link"></a>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+{% endblock %}

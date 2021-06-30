@@ -1,0 +1,18 @@
+---
+title: Plant classification
+start: 2016
+end: 2019
+contact: iheredia@ifca.es
+areas:
+  - biodiversity
+tags:
+  - image classification
+links:
+  - [Homepage,
+     https://marketplace.deep-hybrid-datacloud.eu/modules/deep-oc-plants-classification-tf.html]
+  - [Original paper,
+     https://digital.csic.es/handle/10261/173350]
+  - [Conference abstract,
+     https://biss.pensoft.net/article/20569/]
+description: >-
+  We trained an image classifier to identify plants species. In a first iteration we used the PlantNet dataset, then we improved the model using the iNaturalist dataset which has 4.4M observations with 7M images from 58K worldwide species.

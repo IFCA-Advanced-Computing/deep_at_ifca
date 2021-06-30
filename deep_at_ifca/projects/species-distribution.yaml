@@ -1,0 +1,14 @@
+---
+title: Modelling species distributions
+start: 2018
+end: 2019
+contact: iheredia@ifca.es
+areas:
+  - biodiversity
+tags:
+  - autoencoders
+links:
+  - [Conference abstract,
+     https://biss.pensoft.net/article/37255/]
+description: >-
+  We used an autoencoder to learn in an unsupervised manner the distribution of species in a natural envirronment as an alternative to the classical MaxEnt approach.

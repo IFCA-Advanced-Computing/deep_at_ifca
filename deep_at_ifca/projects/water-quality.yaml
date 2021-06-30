@@ -1,0 +1,15 @@
+---
+title: Water quality from satellite images
+start: 2017
+end: ongoing
+contact: garciad@ifca.es
+areas:
+  - satellites
+  - biodiversity
+links:
+  - [Digital Infrastructures for Research (DI4R) - 2018 (poster),
+     https://digital.csic.es/handle/10261/171640]
+  - [Student report,
+     https://repositorio.unican.es/xmlui/handle/10902/12587]
+description: >-
+  We use use a deep learning classifier to accurately predict water quality (algae) from Sentinel-2 images. The training data comes from sensors at selected locations.

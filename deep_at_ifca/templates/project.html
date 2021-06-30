@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row justify-content-center content">
+  <div class="col-lg-6">
+
+    <h1 class="text-center pb-5">{{ project['title'] }}</h1>
+
+    <p>
+      <b>Dates:</b> {{ project['start'] }} - {{ project['end'] }}
+    </p>
+
+    {% if 'contact' in project.keys() %}
+    <p>
+      <b>Contact:</b>
+      {{ project['contact'].split('@')[0] }}
+      <i class="fa fa-at" aria-hidden="true"></i>
+      {{ project['contact'].split('@')[1] }}
+    </p>
+    {% endif %}
+
+    {% if 'areas' in project.keys() %}
+    <p>
+      <b>Areas:</b>
+      {% for area in project['areas'] %}
+        {% if loop.index!=1 %}, {% endif %}
+        {{ area }}
+      {% endfor %}
+    </p>
+    {% endif %}
+
+    {% if 'tags' in project.keys() %}
+    <p>
+      <b>Tags:</b>
+      {% for tag in project['tags'] %}
+        {% if loop.index!=1 %}, {% endif %}
+        {{ tag }}
+      {% endfor %}
+    </p>
+    {% endif %}
+
+    {% if 'links' in project.keys() %}
+    <p>
+      <b>Links:</b>
+      <ul>
+        {% for link in project['links'] %}
+        <li>
+          <a href="{{ link[1] }}">{{ link[0] }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </p>
+    {% endif %}
+
+    {% if 'description' in project.keys() %}
+    <p class="pt-3">
+      {% autoescape false %}
+        {{ project['description'] | replace("\n", "<br><br>") }}
+      {% endautoescape %}
+    </p>
+    {% endif %}
+
+  </div>
+</div>
+
+{% endblock %}

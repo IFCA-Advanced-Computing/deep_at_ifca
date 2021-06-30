@@ -1,0 +1,25 @@
+---
+title: Your project name
+start: 2020
+end: ongoing
+contact: your-email@ifca.es
+areas: # can be deleted if not needed
+  - some area
+  - some other area
+tags: # can be deleted if not needed
+  - some tag
+  - some other tag
+links:  # can be deleted if not needed
+  - [some paper,
+     https://demo.com]
+  - [some poster,
+     https://demo.com]
+  - [some repo,
+     https://demo.com]
+  - [some homepage,
+     https://demo.com]     
+description: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+

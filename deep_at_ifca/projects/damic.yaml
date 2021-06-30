@@ -1,0 +1,14 @@
+---
+title: Dark Matter searches
+start: 2019
+end: 2020
+contact: lloret@ifca.es
+areas:
+  - physics
+tags:
+  - image classification
+links:
+  - [Report,
+     https://repositorio.unican.es/xmlui/handle/10902/21217]
+description: >-
+  We train an image classifier to  classify events of the DAMIC-M (DArk Matter In CCDs) experiment. Learning to identify if they correspond to a particle of the Standard Model will help to discard this event as a dark matter signal.
