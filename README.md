@@ -7,7 +7,8 @@ To include a new project, add a YAML file to the `/projects` folder. You can use
 * [template for ongoing project](./deep_at_ifca/projects/template-ongoing.yaml)
 * [template for ended project](./deep_at_ifca/projects/template-ended.yaml)
 
-You can always check your YAML syntax with [YAMLlint](http://www.yamllint.com/)
+When adding `areas` or `tags` try to make them general enough so that they can be shared across more than one project. 
+You can always check your YAML syntax with [YAMLlint](http://www.yamllint.com/).
 
 To run the portal in debug mode use:
 ```bash

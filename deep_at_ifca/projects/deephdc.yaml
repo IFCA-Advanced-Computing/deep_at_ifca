@@ -12,5 +12,7 @@ links:
      https://marketplace.deep-hybrid-datacloud.eu/]
   - [Dashboard,
      https://train.deep-hybrid-datacloud.eu/]
+  - [Paper,
+     https://doi.org/10.1109/access.2020.2964386]
 description: >-
   The final goal of the project is to prepare a new generation of e-infrastructures that harness latest generation technologies, supporting deep learning and other intensive computing techniques to exploit very large data sources. The project will provide the corresponding services to lower the adoption barriers for new communities and users, satisfying the needs of both research, education  communities and citizen science.

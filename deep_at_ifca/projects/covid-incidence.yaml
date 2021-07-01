@@ -5,6 +5,8 @@ end: ongoing
 contact: iheredia@ifca.es
 areas:
   - healthcare
+tags:
+  - time series
 links:
   - [Mobility repo,
      https://github.com/IFCA/mitma-covid]
@@ -15,7 +17,9 @@ links:
   - [Dashboard repo,
      https://github.com/IFCA/covid-dl]
   - [Project page,
-     https://distancia-covid.csic.es/]     
+     https://distancia-covid.csic.es/]
+  - [Live Dashboard,
+     http://193.146.75.241/]
 description: >-
-  We trained an deep larning model to try to predict COVID incidence using current incidence and mobility data.
+  We trained an deep learning model to try to predict COVID incidence using current incidence and mobility data.
 
