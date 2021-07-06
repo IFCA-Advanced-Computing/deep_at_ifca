@@ -2,7 +2,7 @@
 title: Seeds classification
 start: 2018
 end: 2019
-contact: iheredia@ifca.es
+contact: iheredia@ifca.unican.es
 areas:
   - biodiversity
 tags:
@@ -14,5 +14,5 @@ links:
      https://biss.pensoft.net/article/25749/]
 description: >-
   We trained an image classifier to identify seed images in collaboration with Spanish Royal Botanical Garden.
-  
+
   As training dataset we have used a collection of images from the Spanish Royal Botanical Garden which consists of around 28K images from 743 species and 493 genera.

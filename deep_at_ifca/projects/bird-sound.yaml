@@ -2,7 +2,7 @@
 title: Bird sound classifier
 start: 2018
 end: 2019
-contact: iheredia@ifca.es
+contact: iheredia@ifca.unican.es
 areas:
   - biodiversity
 tags:
@@ -12,6 +12,6 @@ links:
      https://marketplace.deep-hybrid-datacloud.eu/modules/deep-oc-birds-audio-classification-tf.html]
 description: >-
   We trained an audio classifier to identify bird species from bird sounds.
-  
+
   We used the Xenocanto dataset which has around 350K samples covering 10K species.
-  
+
