@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<div class="row justify-content-center content">
+<div class="row justify-content-center content" xmlns="http://www.w3.org/1999/html">
   <div class="col-lg-6">
 
     <h1 class="text-center">Deep @ IFCA</h1>
@@ -62,6 +62,13 @@
   </div>
 </div>
 
+{% set icons = {'physics': 'atom',
+                'satellites' : 'satellite',
+                'healthcare': 'clinic-medical',
+                'biodiversity': 'leaf',
+                'computing': 'network-wired',
+} %}
+
 <div class="card-deck justify-content-center pt-5">
 {% for pname, p in projects.items() %}
   <div class="col">
@@ -74,6 +81,11 @@
           {% else %}
             {{ p['end'] }}
           {% endif %}
+          <div class="float-sm-right">
+          {% for area in p['areas'] %}
+            <i class="fas fa-{{ icons[area] }}"></i>
+          {% endfor %}
+          </div>
         </span>
       </div>
       <div class="card-body">
