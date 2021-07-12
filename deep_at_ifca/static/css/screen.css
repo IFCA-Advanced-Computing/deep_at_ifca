@@ -10,6 +10,10 @@ body {
   margin-top: 15%;
 }
 
+.container {
+    padding-bottom: 5%;
+}
+
 .card-form {
     color: rgb(6, 115, 158);
     background-color: rgba(6, 115, 158, 0.1);
