@@ -12,7 +12,10 @@ links:
      https://marketplace.deep-hybrid-datacloud.eu/modules/deep-oc-phytoplankton-classification-tf.html]
   - [Conference abstract,
      https://biss.pensoft.net/article/25762/]
-description: >-
-  We trained an image classifier to identify phytoplankton in collaboration with the Vlaams Instituut voor de Zee.
+description: |-
+  We trained an image classifier to identify phytoplankton in
+  collaboration with the Vlaams Instituut voor de Zee.
 
-  As training dataset we have used a collection of images from the Spanish Royal Botanical Garden which consists of around 28K images from 743 species and 493 genera.
+  As training dataset we have used a collection of images from
+  the Spanish Royal Botanical Garden which consists of around
+  28K images from 743 species and 493 genera.

@@ -10,6 +10,6 @@ tags:
 links:
   - [Report,
      https://repositorio.unican.es/xmlui/handle/10902/16300]
-description: >-
-  We trained an image classifier to identify zooplankton in collaboration with the Lifewatch project.
-
+description: |-
+  We trained an image classifier to identify zooplankton
+  in collaboration with the Lifewatch project.

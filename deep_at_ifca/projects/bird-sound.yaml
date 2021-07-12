@@ -10,8 +10,7 @@ tags:
 links:
   - [Homepage,
      https://marketplace.deep-hybrid-datacloud.eu/modules/deep-oc-birds-audio-classification-tf.html]
-description: >-
+description: |-
   We trained an audio classifier to identify bird species from bird sounds.
 
   We used the Xenocanto dataset which has around 350K samples covering 10K species.
-

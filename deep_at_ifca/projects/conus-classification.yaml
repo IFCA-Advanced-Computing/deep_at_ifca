@@ -10,7 +10,10 @@ tags:
 links:
   - [Homepage,
      https://marketplace.deep-hybrid-datacloud.eu/modules/deep-oc-conus-classification-tf.html]
-description: >-
+description: |-
   We trained an image classifier to identify conus marine snails at species level.
 
-  The training dataset has been provided by the Natural Science Museum of Madrid and it consists of a dataset containing images of 68 species of conus covering three different regions: the Panamic region; the South African region; and the Western Atlantic and Mediterranean region.
+  The training dataset has been provided by the Natural Science Museum of Madrid
+  and it consists of a dataset containing images of 68 species of conus covering
+  three different regions: the Panamic region; the South African region; and the
+  Western Atlantic and Mediterranean region.

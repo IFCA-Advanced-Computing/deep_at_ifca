@@ -9,5 +9,5 @@ areas:
 links:
   - [Student report,
      https://repositorio.unican.es/xmlui/handle/10902/20626]
-description: >-
+description: |-
   We use use a deep learning classifier to accurately detect and monitor forest fires from Sentinel-2 images.

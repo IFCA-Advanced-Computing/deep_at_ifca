@@ -8,10 +8,21 @@ areas:
 links:
   - [Meteorology Group Homepage,
      http://www.meteo.unican.es/en/research/statistical_downscaling]
-description: >-
-  This usecase intends to link large-scale atmospheric variables with the local variables of interest relying on a record of historical observations to have fine-grained meteorological predictions. This work is developed in collaboration with the Meteorology group of the Institute of Physics of Cantabria.
+description: |-
+  This usecase intends to link large-scale atmospheric variables with the local
+  variables of interest relying on a record of historical observations to have
+  fine-grained meteorological predictions.
+  This work is developed in collaboration with the Meteorology group of the Institute of Physics of Cantabria.
 
-  The global circulation models (GCM) are the main tools used to study the evolution of climate at different time scales. These solve numerically the differential equations governing the climate system discretising in both space and time. Due to some intrinsic limitations (e.g., computational resources) the spatial resolution of these models is very coarse limiting their applicability in local-data dependent communities (e.g., energy). To address this issue, statistical downscaling aims to link large-scale atmospheric variables (predictors) with the local variables of interest (predictands) relying on a record of historical observations.
+  The global circulation models (GCM) are the main tools used to study the
+  evolution of climate at different time scales. These solve numerically the
+  differential equations governing the climate system discretising in both
+  space and time. Due to some intrinsic limitations (e.g., computational resources)
+  the spatial resolution of these models is very coarse limiting their applicability
+  in local-data dependent communities (e.g., energy). To address this issue, statistical
+  downscaling aims to link large-scale atmospheric variables (predictors) with the local
+  variables of interest (predictands) relying on a record of historical observations.
 
-  The dataset consists of daily atmospheric data from the year 1979 to 2008, selected from the ERA-Interim and EWEMBI predictor and predictand datasets, respectively. The spatial domain ranges from -10 to 30 in longitude and from 34 to 74 in latitude
-
+  The dataset consists of daily atmospheric data from the year 1979 to 2008, selected
+  from the ERA-Interim and EWEMBI predictor and predictand datasets, respectively.
+  The spatial domain ranges from -10 to 30 in longitude and from 34 to 74 in latitude.

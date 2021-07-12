@@ -10,5 +10,7 @@ tags:
 links:
   - [Conference abstract,
      https://biss.pensoft.net/article/37255/]
-description: >-
-  We used an autoencoder to learn in an unsupervised manner the distribution of species in a natural environment as an alternative to the classical MaxEnt approach.
+description: |-
+  We used an autoencoder to learn in an unsupervised manner
+  the distribution of species in a natural environment
+  as an alternative to the classical MaxEnt approach.

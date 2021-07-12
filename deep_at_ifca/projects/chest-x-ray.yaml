@@ -10,6 +10,9 @@ tags:
 links:
   - [Homepage,
      https://marketplace.deep-hybrid-datacloud.eu/modules/deep-oc-image-classification-tf-dicom.html]
-description: >-
-  The aim improve classification speed and accuracy of chest X-ray images. In the current state of health alarm, due to the saturation of the medical systems, professionals with no x-ray experience are being forced to interpret the chest images. Under these circumstances, a reliable automatic triage system to assist diagnosis is needed. The developed tools will be equally applicable to other diseases with pneumonia. The training dataset will be composed of patient X-ray images available from the hospital Marqués de Valdecilla.
-
+description: |-
+  The aim improve classification speed and accuracy of chest X-ray images. In the current state of health alarm,
+  due to the saturation of the medical systems, professionals with no x-ray experience are being forced to interpret
+  the chest images. Under these circumstances, a reliable automatic triage system to assist diagnosis is needed.
+  The developed tools will be equally applicable to other diseases with pneumonia.
+  The training dataset will be composed of patient X-ray images available from the hospital Marqués de Valdecilla.

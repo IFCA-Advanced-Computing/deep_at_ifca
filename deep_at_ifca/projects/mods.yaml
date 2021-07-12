@@ -12,5 +12,20 @@ links:
      https://doi.org/10.1109/ACCESS.2020.2968718]
   - [Homepage,
      https://marketplace.deep-hybrid-datacloud.eu/modules/deep-oc-mods.html]
-description: >-
-  The work deals with a proactive network monitoring for security and protection of computing infrastructures. We provide an exploitation of an intelligent module, in the form of a as a machine learning application using deep learning modeling, in order to enhance functionality of intrusion detection system supervising network traffic flows. Currently, intrusion detection systems work well for network monitoring in near real-time and they effectively deal with threats in a reactive way. Deep learning is the emerging generation of artificial intelligence techniques and one of the most promising candidates for intelligence integration into traditional solutions leading to quality improvement of the original solutions. The work presented in this paper faces the challenge of cooperation between deep learning techniques and large-scale data processing. The outcomes obtained from extensive and careful experiments show the applicability and feasibility of simultaneously modelled multiple monitoring channels using deep learning techniques. The proper joining of deep learning modelling with scalable data preprocessing ensures high quality and stability of model performance in dynamic and fast-changing environments such as network traffic flow monitoring.
+description: |-
+  The work deals with a proactive network monitoring for security and protection
+  of computing infrastructures. We provide an exploitation of an intelligent module,
+  in the form of a as a machine learning application using deep learning modeling,
+  in order to enhance functionality of intrusion detection system supervising
+  network traffic flows. Currently, intrusion detection systems work well for
+  network monitoring in near real-time and they effectively deal with threats
+  in a reactive way. Deep learning is the emerging generation of artificial
+  intelligence techniques and one of the most promising candidates for intelligence
+  integration into traditional solutions leading to quality improvement of the
+  original solutions. The work presented in this paper faces the challenge of
+  cooperation between deep learning techniques and large-scale data processing.
+  The outcomes obtained from extensive and careful experiments show the applicability
+  and feasibility of simultaneously modelled multiple monitoring channels using
+  deep learning techniques. The proper joining of deep learning modelling with
+  scalable data preprocessing ensures high quality and stability of model performance
+  in dynamic and fast-changing environments such as network traffic flow monitoring.

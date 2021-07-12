@@ -16,6 +16,7 @@
 
 import pathlib
 
+from markdown import markdown
 import pandas as pd
 import yaml
 
@@ -36,6 +37,7 @@ def load_projects():
             with open(p, 'r') as f:
                 pname = p.stem.replace(' ', '')
                 data = yaml.safe_load(f)
+                data['description'] = markdown(data['description'])   # convert to html
                 projects[pname] = data
                 keys.append([data['end'], data['start'], pname])
         except Exception as e:

@@ -10,5 +10,6 @@ links:
      https://marketplace.deep-hybrid-datacloud.eu/modules/deep-oc-satsr.html]
   - [European Open Science Cloud (EOSCHub) - 2019 (poster),
      https://confluence.ifca.es/download/attachments/16717231/Poster%20-%20EOSC%20Hub%202019.pdf]
-description: >-
-  We use Deep Learning to upscale the multispectral images of several satellites (Sentinel 2, Landsat 8, VIIRS, MODIS).
+description: |-
+  We use Deep Learning to upscale the multispectral images
+  of several satellites (Sentinel 2, Landsat 8, VIIRS, MODIS).

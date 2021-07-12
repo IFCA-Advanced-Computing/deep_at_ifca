@@ -56,7 +56,7 @@
     {% if 'description' in project.keys() %}
     <p class="pt-3">
       {% autoescape false %}
-        {{ project['description'] | replace("\n", "<br><br>") }}
+        {{ project['description'] }}
       {% endautoescape %}
     </p>
     {% endif %}
