@@ -19,7 +19,7 @@ links:
   - [Project page,
      https://distancia-covid.csic.es/]
   - [Live Dashboard,
-     http://193.146.75.241/]
+     http://193.146.75.241:8080/]
 description: >-
   We trained an deep learning model to try to predict COVID incidence using current incidence and mobility data.
 
