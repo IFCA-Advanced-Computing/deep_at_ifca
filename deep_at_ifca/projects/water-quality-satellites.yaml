@@ -12,6 +12,6 @@ links:
   - [Student report,
      https://repositorio.unican.es/xmlui/handle/10902/12587]
 description: |-
-  We use use a deep learning classifier to accurately
+  We use a deep learning classifier to accurately
   predict water quality (algae) from Sentinel-2 images.
   The training data comes from sensors at selected locations.

@@ -1,0 +1,15 @@
+---
+title: Water quality from sensors
+start: 2019
+end: 2020
+contact: castrillo@ifca.unican.es
+areas:
+  - biodiversity
+links:
+  - [Paper,
+     https://www.sciencedirect.com/science/article/pii/S0043135420300269]
+description: |-
+  We use use a machine learning models to infer water quality variables (nutrients)
+  from surrogate variables obtained from sensors.
+
+
