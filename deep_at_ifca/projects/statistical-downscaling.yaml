@@ -5,6 +5,8 @@ end: ongoing
 contact: gonzabad@ifca.unican.es
 areas:
   - physics
+tags:
+  - deep learning
 links:
   - [Meteorology Group Homepage,
      http://www.meteo.unican.es/en/research/statistical_downscaling]

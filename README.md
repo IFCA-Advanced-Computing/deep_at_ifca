@@ -1,7 +1,7 @@
-Deep @ IFCA
-===========
+Data Science @ IFCA
+===================
 
-This portal gathers all Deep Learning projects developed at IFCA.
+This portal gathers all Data Science and Deep Learning projects developed at IFCA. Live at [http://datascience.ifca.es/](http://datascience.ifca.es/) (mirror: [http://deep.ifca.es/](http://deep.ifca.es/))
 
 To include a new project, add a YAML file to the `/projects` folder. You can use these files as templates to follow the syntax:
 * [template for ongoing project](./deep_at_ifca/projects/template-ongoing.yaml)
