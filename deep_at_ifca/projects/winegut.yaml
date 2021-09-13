@@ -1,0 +1,18 @@
+---
+title: Alzheimer and wine consumption
+start: 2020
+end: ongoing
+contact: aguilarf@ifca.unican.es
+areas:
+  - healthcare
+tags:
+  - image classification
+  - deep learning
+links:
+  - [Homepage,
+     https://alimenta365.csic.es/]
+description: |-
+  We want to understand the relation between wine consumption and the risk of developing alzheimer.
+  For this we are developing a neural network to automatically detect and measure wine in glasses.
+  The network will be first trained first with lab-controlled images, and then will be fine-tuned to
+  classify images in real-world scenarios, with data submitted from interested users.
