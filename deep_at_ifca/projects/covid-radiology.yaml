@@ -1,0 +1,18 @@
+---
+title: COVID and radiology
+start: 2021
+end: ongoing
+contact: lloret@ifca.unican.es
+areas:
+  - healthcare
+tags:
+  - deep learning
+  - image classification
+links:
+  - [Homepage,
+     https://xray.covid.ifca.es]
+description: |-
+  We are using deep learning techniques for image analysis to look
+  for radiomic markers in thoracic radiographs that will enable
+  to accurately diagnose COVID19.
+

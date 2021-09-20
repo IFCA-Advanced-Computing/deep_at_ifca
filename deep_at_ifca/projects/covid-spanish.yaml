@@ -1,0 +1,18 @@
+---
+title: COVID in Spanish
+start: 2020
+end: ongoing
+contact: aguilarf@ifca.unican.es
+areas:
+  - healthcare
+tags:
+  - data science
+links:
+  - [Homepage,
+     https://pti-esciencia.csic.es/project/covid19-en-espanol-investigacion-interdisciplinar-sobre-terminologia-tematicas-y-comunicacion-de-la-ciencia/]
+  - [Web application,
+     https://gitlab.ifca.es/alonsoj/esciencia_webapp]
+  - [Data representation methods,
+     https://gitlab.ifca.es/alonsoj/esciencia_visual]
+description: |-
+  The project analyzes the complete corpus of news about COVID19 published by The Conversation (in Spanish) to study the terminology, discourse, network of specialists in COVID19 and their relationship with the different topics, data life cycle and mapping the topics covered.
