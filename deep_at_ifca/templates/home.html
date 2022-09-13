@@ -91,9 +91,7 @@
       <div class="card-body">
         <h5 class="card-title">{{ p['title'] }}</h5>
         <p class="card-text">
-          {% autoescape false %}
-          {{ p['description'][:80] }} [...]
-          {% endautoescape %}
+            {{ p['snippet'] }}
         </p>
         <a href="{{ url_for('project', name=pname) }}" class="stretched-link"></a>
       </div>

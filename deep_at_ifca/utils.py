@@ -15,6 +15,7 @@
 
 
 import pathlib
+import re
 
 from markdown import markdown
 import pandas as pd
@@ -37,6 +38,13 @@ def load_projects():
             with open(p, 'r') as f:
                 pname = p.stem.replace(' ', '')
                 data = yaml.safe_load(f)
+
+                data['snippet'] = data['description']
+                data['snippet'] = data['snippet'].split(' ')
+                data['snippet'] = ' '.join(data['snippet'][:15]) + ' [...]' # keep first 15 words
+                data['snippet'] = re.sub('\[([\w\s\d]+)\]\(([\w\d/:./?=#]+)\)', r'\1', data['snippet'])  # replace markdown links
+                data['snippet'] = data['snippet'].replace('_', '').replace('*', '')  # replace bold and italics
+
                 data['description'] = markdown(data['description'])   # convert to html
                 projects[pname] = data
                 keys.append([data['end'], data['start'], pname])
