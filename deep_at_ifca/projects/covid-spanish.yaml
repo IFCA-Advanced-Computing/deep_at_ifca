@@ -1,7 +1,7 @@
 ---
 title: COVID in Spanish
 start: 2020
-end: ongoing
+end: 2022
 contact: aguilarf@ifca.unican.es
 areas:
   - healthcare
@@ -15,4 +15,6 @@ links:
   - [Data representation methods,
      https://gitlab.ifca.es/alonsoj/esciencia_visual]
 description: |-
-  The project analyzes the complete corpus of news about COVID19 published by The Conversation (in Spanish) to study the terminology, discourse, network of specialists in COVID19 and their relationship with the different topics, data life cycle and mapping the topics covered.
+  The project analyzes the complete corpus of news about COVID19 published by The Conversation
+  (in Spanish) to study the terminology, discourse, network of specialists in COVID19 and their
+  relationship with the different topics, data life cycle and mapping the topics covered.

@@ -2,7 +2,7 @@
 title: Alzheimer and wine consumption
 start: 2020
 end: ongoing
-contact: aguilarf@ifca.unican.es
+contact: cobocano@ifca.unican.es
 areas:
   - healthcare
 tags:
@@ -11,6 +11,8 @@ tags:
 links:
   - [Homepage,
      https://alimenta365.csic.es/]
+  - [Paper - Artificial intelligence to estimate wine volume from single-view images,
+     https://doi.org/10.1016/j.heliyon.2022.e10557]
 description: |-
   We want to understand the relation between wine consumption and the risk of developing alzheimer.
   For this we are developing a neural network to automatically detect and measure wine in glasses.

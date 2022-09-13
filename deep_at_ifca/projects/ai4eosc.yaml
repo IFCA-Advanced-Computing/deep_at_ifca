@@ -1,0 +1,16 @@
+---
+title: AI4EOSC
+start: 2022
+end: ongoing
+contact: aloga@ifca.unican.es
+areas:
+  - computing
+tags:
+  - deep learning
+  - big projects
+description: |-
+  This project is a follow-up of the [Deep Hybrid Datacloud](https://deep.ifca.es/projects/deephdc)
+  project.
+  
+  The goal is to build a platform to support Machine Learning pipelines in the 
+  European Open Science Could (EOSC).
