@@ -8,9 +8,9 @@ areas:
 tags:
   - deep learning
   - big projects
+  - federated learning
 description: |-
   This project is a follow-up of the [Deep Hybrid Datacloud](https://deep.ifca.es/projects/deephdc)
   project.
   
-  The goal is to build a platform to support Machine Learning pipelines in the 
-  European Open Science Could (EOSC).
+  Goal: The AI4EOSC (Artificial Intelligence for the European Open Science Cloud) delivers an enhanced set of advanced services for the development of Artificial Intelligence (AI), Machine Learning (ML) and Deep Learning (DL) models and applications in the European Open Science Cloud (EOSC). These services are bundled together into a comprehensive platform providing advanced features such as distributed, federated and split learning; novel provenance metadata for AI/ML/DL models; event-driven data processing services or provisioning of AI/ML/DL services based on serverless computing. The project builds on top of the DEEP-Hybrid-DataCloud outcomes and the EOSC compute platform and services in order to provide this specialized compute platform. Moreover, AI4EOSC offers customization components in order to provide tailor made deployments of the platform, adapting to the evolving user needs. The main outcomes of the AI4EOSC project will be a measurable increase of the number of advanced, high level, customizable services available through the EOSC portal, serving as a catalyst for researchers, facilitating the collaboration, easing access to high-end pan-European resources and reducing the time to results; paired with concrete contributions to the EOSC exploitation perspective, creating a new channel to support the build-up of the EOSC Artificial Intelligence and Machine Learning community of practice.
