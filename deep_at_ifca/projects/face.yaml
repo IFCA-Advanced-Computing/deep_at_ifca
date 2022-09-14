@@ -1,0 +1,13 @@
+---
+title: FACE (FAir Computational Epidemiology)
+start: 2022
+end: ongoing
+contact: aloga@ifca.unican.es
+areas:
+  - computing
+tags:
+  - machine learning
+  - deep learning
+  - health
+description: |-
+  FACE (FAIR Computational Epidemiology) is a consortium of the Spanish National Research Council (CSIC), participated by institutes located in different Spanish cities: IFCA (Santander), IFISC (Palma de Mallorca), CEAB (Blanes, Catalonia) and IEGD (Madrid). Our goal is to study data-driven models for modelling the evolution of epidemics. For example, for the case of Covid-19 we combine different data sources in order to get information related to daily cases, mobility, weather conditions and vaccination. We use machine learning models combined with mathematical models based on differential equations (see the following [preprint](https://arxiv.org/abs/2207.05753)). In addition, we are also working in the creation of the platform, and the study of the secure access to the data (studying anonymization techniques).
