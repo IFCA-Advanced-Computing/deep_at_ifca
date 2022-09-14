@@ -1,0 +1,11 @@
+---
+title: Anonymity tools
+start: 2022
+end: ongoing
+contact: sainzpardo@ifca.unican.es
+areas:
+  - computing
+tags:
+  - privacy, anonymity
+description: |-
+  The goal is perform a comprehensive study of data anonymization techniques. We present the implementation of the Python library [pyCANON](https://github.com/IFCA/pycanon), which can be used to check the level of anonymity of a dataset by means of the most common privacy-preserving techniques (see the [preprint](https://arxiv.org/abs/2208.07556)). The next objective is the implementation of different techniques to achieve the level of anonymity required, and the study of techniques such as differential privacy.
