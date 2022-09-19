@@ -6,7 +6,9 @@ contact: sainzpardo@ifca.unican.es
 areas:
   - computing
 tags:
-  - federated learning, deep learning, privacy
+  - federated learning
+  - deep learning
+  - privacy
 description: |-
   Federated learning is a data decentralization privacy-preserving technique used to perform
   machine or deep learning in a secure way.
@@ -16,4 +18,4 @@ description: |-
   In addition, we are interested in studying different use cases of the application of these
   techniques as well as open problems in the field of federated learning.
   
-  This study is part of the [AI4EOSC](https://deep.ifca.es/projects/ai4eosc) project.
+  This work is part of the [AI4EOSC](https://deep.ifca.es/projects/ai4eosc) project.

@@ -6,6 +6,7 @@ contact: aloga@ifca.unican.es
 areas:
   - computing
 tags:
+  - machine learning
   - deep learning
   - big projects
 links:
@@ -18,7 +19,7 @@ links:
   - [Paper,
      https://doi.org/10.1109/access.2020.2964386]
 description: |-
-  The final goal of the project is to prepare a new generation of
+  The goal of the project is to prepare a new generation of
   e-infrastructures that harness latest generation technologies,
   supporting deep learning and other intensive computing techniques
   to exploit very large data sources. The project will provide the

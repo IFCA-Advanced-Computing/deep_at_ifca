@@ -6,7 +6,10 @@ contact: sainzpardo@ifca.unican.es
 areas:
   - computing
 tags:
-  - privacy, anonymity
+  - privacy
+links:
+  - [pyCanon (python library),
+     https://github.com/IFCA/pycanon]
 description: |-
   The goal is perform a comprehensive study of data anonymization techniques.
   We present the implementation of the Python library [pyCANON](https://github.com/IFCA/pycanon),
