@@ -22,7 +22,7 @@ import pandas as pd
 import yaml
 
 
-maindir = pathlib.Path().absolute()
+maindir = pathlib.Path(__file__).resolve().parent
 
 
 def load_projects():
