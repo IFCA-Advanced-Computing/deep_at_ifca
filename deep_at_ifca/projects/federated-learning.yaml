@@ -9,6 +9,9 @@ tags:
   - federated learning
   - deep learning
   - privacy
+ links:
+  - [Study of the performance and scalability of federated learning for medical imaging with intermittent clients (preprint),
+     https://arxiv.org/abs/2207.08581]
 description: |-
   Federated learning is a data decentralization privacy-preserving technique used to perform
   machine or deep learning in a secure way.
