@@ -10,6 +10,11 @@ tags:
   - deep learning
   - big projects
   - federated learning
+links:
+  - [AI4EOSC Homepage,
+     https://ai4eosc.eu/]
+  - [AI4EOSC Github,
+     https://github.com/AI4EOSC/]
 description: |-
   AI4EOSC (Artificial Intelligence for the European Open Science Cloud) delivers an enhanced 
   set of advanced services for the development of Artificial Intelligence (AI), Machine Learning (ML) 

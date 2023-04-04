@@ -9,6 +9,9 @@ areas:
 tags:
   - deep learning
   - big projects
+links:
+  - [iMagine Homepage,
+     https://www.imagine-ai.eu/]
 description: |-
   This project closely related to the [AI4EOSC](https://deep.ifca.es/projects/ai4eosc)
   project.
