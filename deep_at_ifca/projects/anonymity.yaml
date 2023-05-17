@@ -14,6 +14,7 @@ description: |-
   The goal is to perform a comprehensive study of data anonymization techniques.
   We present the implementation of the Python library [pyCANON](https://github.com/IFCA/pycanon),
   which can be used to check the level of anonymity of a dataset by means of the most common privacy-preserving
-  techniques (see the [preprint](https://arxiv.org/abs/2208.07556)). The next objective is the implementation of
-  different techniques to achieve the level of anonymity required, and the study of techniques for privacy 
-  preserving data analysis such as differential privacy.
+  techniques (see the related [paper](https://www.nature.com/articles/s41597-022-01894-2)). In addition, we are working 
+  in the analysis of the impact of anonymization in the performance of different machine learning models (see the following
+  [preprint](https://arxiv.org/abs/2305.07415)). We are also working in the implementation of different techniques 
+  to achieve the level of anonymity required by the users by means of a Python library.
